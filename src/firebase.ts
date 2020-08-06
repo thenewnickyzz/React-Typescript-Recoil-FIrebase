@@ -3,6 +3,7 @@
 import * as firebase from 'firebase/app'
 
 import 'firebase/firestore'
+import 'firebase/auth'
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCVfEMJkqmUrLpirydDfOBHAfwGL1Dhk80',
@@ -13,6 +14,7 @@ const firebaseConfig = {
   messagingSenderId: '433213035803',
   appId: '1:433213035803:web:e73976b1fecb68c91aefbe',
 }
+
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 

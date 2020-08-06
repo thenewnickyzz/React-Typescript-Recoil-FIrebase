@@ -19,7 +19,7 @@ const BookList = () => {
         const books = snapshot.docs.map((doc) => doc.data()) as IBook[]
         setBooks(books)
       })
-  }, [])
+  }, [setBooks])
 
   return (
     <Grid container spacing={4}>
